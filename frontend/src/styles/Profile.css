@@ -1,0 +1,89 @@
+.profile-container {
+    position: relative; /* Allow positioning of child elements */
+    height: 88svh; /* Full height of the viewport */
+    width: 100%; /* Full width */
+    background-image: url('../assets/profile.jpg'); /* Set the background image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center -900px; /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling */
+    padding: 20px; /* Maintain padding for content */
+    color: black; /* Change text color for readability */
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); 
+    display: flex; /* Use flexbox to center items vertically */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.profile-title {
+    font-size: 2em; /* Title font size */
+    margin-bottom: 10px; /* Space below the title */
+    color: #1c391c; /* Darker color for the title */
+    text-align: center;
+    margin-top: 1px;
+}
+
+.profile-form {
+    width: 100%; /* Full width */
+    max-width: 400px; /* Set a max width for the form container */
+    padding: 20px; /* Add padding */
+    border: 1px solid rgba(255, 255, 255, 0.308); /* Translucent border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: rgba(255, 255, 255, 0.662); /* White background with transparency */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    display: flex; /* Use flex to align form items */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the left */
+    align-items: center;
+}
+
+.profile-table {
+    width: 100%; /* Full width table */
+    border-collapse: collapse; /* Merge borders */
+}
+
+.profile-table td {
+    padding: 5px; /* Cell padding */
+}
+
+.profile-form input[type="text"],
+.profile-form input[type="number"],
+.profile-form input[type="date"],
+.profile-form select {
+    width: 100%; /* Full width input fields */
+    padding: 6px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 4px; /* Rounded corners */
+    font-family: 'Georgia', serif;
+}
+
+.profile-form input:focus,
+.profile-form select:focus {
+    border-color: #44b046; /* Focus border color */
+    outline: none; /* Remove outline */
+    box-shadow: 0 0 5px rgba(68, 176, 70, 0.5); /* Add shadow on focus */
+}
+
+.update-button {
+    background-color: #33632d; /* Button background color */
+    color: white; /* White text */
+    padding: 10px 15px; /* Padding for button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    width: 100%; /* Full width button */
+    margin-top: 15px; /* Space above button */
+}
+
+.update-button:hover {
+    background-color: #164313; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly grow button on hover */
+}
+
+.profile-form p {
+    text-align: center; /* Center the message */
+    color: #000000; /* Red color for error messages */
+    font-size: 1em;
+    margin-top: 14px;
+    margin-bottom: 1px;
+}

@@ -1,0 +1,94 @@
+/* Main wrapper with background image */
+.add-department-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('../assets/adminadddepartment.jpg');
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+    transform: translateX(-20%);
+    padding-left: 70%; /* Add padding to push form to the right */
+}
+
+/* Content container styling */
+.add-department-container {
+    max-width: 1000px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* White with transparency */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Heading style */
+.add-department-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #182113;
+    font-family: 'Georgia', serif;
+}
+
+/* Table styling */
+.add-department-container table {
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Table cell and input styling */
+.add-department-container td {
+    padding: 10px;
+    text-align: left;
+}
+
+.add-department-container input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Georgia', serif;
+}
+
+.add-department-container select {
+    width: 114%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Georgia', serif;
+}
+
+.add-department-container input:focus,
+.add-department-container select:focus {
+    border-color: #44b046;
+    outline: none;
+    box-shadow: 0 0 5px rgba(68, 176, 70, 0.5);
+}
+
+/* Button styling */
+.add-department-container button {
+    padding: 10px 20px;
+    background-color: #447946;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s, transform 0.2s;
+    font-family: 'Georgia', serif;
+    width: 100%;
+}
+
+.add-department-container button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Message styling */
+.message {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: #333;
+}

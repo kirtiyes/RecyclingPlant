@@ -1,0 +1,142 @@
+/* Wrapper for background image and centered content */
+.view-manmainemp-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 85.3vh;
+    background-image: url('../assets/manmainemp.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -9.5px;
+}
+
+/* Container for the main content */
+.view-manmainemp-container {
+    position: absolute; /* or 'absolute' if needed */
+    top: 80px; /* Adjust as needed */
+    max-width: 1500px;
+    width: 100%;
+    padding: 20px;
+    height: 1px;
+    background-color: rgba(248, 2, 2, 0); /* Slightly opaque white */
+    border-radius: 12px;
+    text-align: center;
+    margin-top: -100px; /* Adjusted position */
+    font-family: 'Georgia', serif;
+}
+
+/* Title styling */
+.view-manmainemp-title {
+    font-size: 2em;
+    margin-bottom: 25px;
+    margin-top: 0; /* Removed negative margin */
+    color: #14360e; /* Refined darker red */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+}
+
+/* Add Machine button styling */
+.view-manmainemp-add-button {
+    padding: 12px 24px;
+    margin-bottom: 50px;
+    background-color: #248b29; /* Deeper green */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: 'Georgia', serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.view-manmainemp-add-button:hover {
+    background-color: #2f6b32; /* Darker green on hover */
+    transform: translateY(-2px); /* Lifting effect on hover */
+}
+
+/* Table styling */
+.view-manmainemp-table {
+    margin: 0 auto;
+    margin-top: 50px;
+    border-collapse: collapse;
+    width: 90%;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
+    background-color: rgba(255, 255, 255, 0.765); /* More opaque background */
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.view-manmainemp-table th, .view-manmainemp-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.view-manmainemp-table th {
+    background-color: #f7f7f7;
+    font-weight: bold;
+    color: #333;
+}
+
+.view-manmainemp-table tr:hover {
+    background-color: #eef0efd7; /* Subtle hover effect */
+}
+
+/* Action button styling */
+.view-manmainemp-action-button {
+    padding: 8px 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Remove button styling */
+.view-manmainemp-remove-button {
+    padding: 10px 20px; /* Padding for button */
+    margin-bottom: 5px; /* Space below button */
+    background-color: #2d3b26; /* Green background */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 1em; /* Font size */
+    margin-top: 5px;
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+    font-family: 'Georgia', serif; /* Font style */
+}
+
+.view-manmainemp-remove-button:hover {
+    background-color: #173c17; /* Slightly darker red on hover */
+    transform: translateY(-2px);
+}
+
+/* Edit button styling */
+.view-manmainemp-edit-button {
+    padding: 10px 20px; /* Padding for button */
+    margin-bottom: 5px; /* Space below button */
+    background-color: #24a02c; /* Green background */
+    margin-left: 30px; /* Left margin for spacing */
+    margin-right: 10px; /* Left margin for spacing */
+    margin-top: 5px;
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 1em; /* Font size */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+    font-family: 'Georgia', serif; /* Font style */
+}
+
+.view-manmainemp-edit-button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: translateY(-2px);
+}

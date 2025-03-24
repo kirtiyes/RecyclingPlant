@@ -1,0 +1,104 @@
+/* Main wrapper with background image */
+.edit-empmatinv-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 86vh;
+    background-image: url('../assets/empeditmatinv.jpg');
+    background-size: 250%;
+    background-position: center -766px;
+    background-repeat: no-repeat;
+    padding: 10px;
+    width: 98.6%;
+}
+
+/* Content container styling */
+.edit-empmatinv-container {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    height: auto;
+    background-color: rgba(229, 229, 229, 0.705); /* White with transparency */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: -10px;
+}
+
+/* Heading style */
+.edit-empmatinv-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #233727;
+    font-family: 'Georgia', serif;
+}
+
+/* Table styling */
+.edit-empmatinv-container table {
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Table cell and input styling */
+.edit-empmatinv-container td {
+    padding: 10px;
+    text-align: left;
+}
+
+.edit-empmatinv-container input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Georgia', serif;
+}
+
+.edit-empmatinv-container select {
+    width: 114%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Georgia', serif;
+}
+
+.edit-empmatinv-container input:focus,
+.edit-empmatinv-container select:focus {
+    border-color: #44b046;
+    outline: none;
+    box-shadow: 0 0 5px rgba(68, 176, 70, 0.5);
+}
+
+/* Button styling */
+.edit-empmatinv-container button {
+    padding: 10px 20px;
+    background-color: #447946;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s, transform 0.2s;
+    font-family: 'Georgia', serif;
+    width: 100%;
+}
+
+.edit-empmatinv-container button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.edit-empmatinv-container p {
+    text-align: center; /* Center the message */
+    color: #000000; /* Red color for error messages */
+    font-size: 1em;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+/* Message styling */
+.message {
+    margin-top: 20px;
+    font-size: 0em;
+    color: #333;
+    font-family: 'Georgia', serif;
+}

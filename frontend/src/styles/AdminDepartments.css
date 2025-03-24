@@ -1,0 +1,112 @@
+.admin-departments-wrapper {
+    text-align: center; /* Center text alignment */
+    margin-top: 5px; /* Space above */
+    font-family: 'Georgia', serif; /* Font style */
+    background-image: url('../assets/depts.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire area */
+    margin-bottom: -10px; /* Negative margin at the bottom */
+    height: 88vh;
+}
+
+.admin-departments-title {
+    font-size: 2em; /* Title size */
+    margin-bottom: 40px; /* Space below the title */
+    margin-top: 10px; /* Space below the title */
+    color: #ffffff; /* Dark text color */
+}
+
+.admin-departments-add-button {
+    padding: 10px 20px; /* Padding for button */
+    margin-bottom: 20px; /* Space below button */
+    background-color: #268d29; /* Green background */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 1em; /* Font size */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+    font-family: 'Georgia', serif; /* Font style */
+}
+
+.admin-departments-add-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly scale on hover */
+}
+
+.admin-departments-table {
+    margin: 0 auto; /* Center the table */
+    border-collapse: collapse; /* Collapse borders */
+    width: 60%; /* Table width */
+    border: 1px solid #ddd; /* Light border for the table */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    background-color: rgba(245, 240, 225, 0.797); /* Light background */
+    border-radius: 6px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow */
+    margin-bottom: 20px; /* Space below the table */
+}
+
+.admin-departments-table th, .admin-departments-table td {
+    padding: 10px; /* Padding for cells */
+    text-align: left; /* Left alignment */
+    border: 1px solid #ddd; /* Border for cells */
+}
+
+.admin-departments-table th {
+    background-color: #faf5e7f0; /* Light background for header */
+    font-weight: bold; /* Bold header text */
+    color: #333; /* Dark text color for header */
+}
+
+.admin-departments-table tr:hover {
+    background-color: #faf5e7f0; /* Hover effect for rows */
+}
+
+.admin-departments-action-button {
+    padding: 5px 10px; /* Padding for action buttons */
+    margin-left: 5px; /* Space between buttons */
+    border-radius: 3px; /* Rounded corners */
+    font-size: 0.9em; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+}
+
+.admin-departments-remove-button {
+    padding: 10px 20px; /* Padding for button */
+    margin-bottom: 5px; /* Space below button */
+    background-color: #2d3b26; /* Green background */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 1em; /* Font size */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+    font-family: 'Georgia', serif; /* Font style */
+}
+
+.admin-departments-remove-button:hover {
+    background-color: #2e462d; /* Darker red on hover */
+    transform: scale(1.05); /* Scale effect */
+}
+
+.admindept-button2 {
+    padding: 10px 20px; /* Padding for button */
+    margin-bottom: 5px; /* Space below button */
+    background-color: #24a02c; /* Green background */
+    margin-left: 30px; /* Left margin for spacing */
+    margin-right: 10px; /* Left margin for spacing */
+    margin-top: 5px;
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 1em; /* Font size */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+    font-family: 'Georgia', serif; /* Font style */
+}
+
+.admindept-button2:hover {
+    background-color: #4b9c58; /* Darker blue on hover */
+    transform: scale(1.05); /* Scale effect */
+}
+
+

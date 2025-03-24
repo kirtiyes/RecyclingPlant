@@ -1,0 +1,87 @@
+.edit-machine-wrapper {
+    position: relative; /* Allow positioning of child elements */
+    height: 88vh; /* Full height of the viewport */
+    width: 100%; /* Full width */
+    background-image: url('../assets/adminemployees.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repetition */
+}
+
+.edit-machine-container {
+    max-width: 500px; /* Set a max width for the form container */
+    margin: 50px auto; /* Center the container */
+    height: 450px;
+    padding: 20px; /* Add padding */
+    margin-top: 50px;
+    position: relative;
+    top: 46px;
+    border: 1px solid rgba(255, 255, 255, 0.308); /* Translucent border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    background-color: rgba(255, 255, 255, 0.662); /* White background with transparency */
+    font-family: 'Georgia', serif;
+}
+
+.edit-machine-container h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Darker color for the heading */
+    margin-top: 15px;
+}
+
+.edit-machine-container table {
+    width: 100%; /* Full width table */
+    border-collapse: collapse; /* Collapse borders */
+}
+
+.edit-machine-container table td {
+    padding: 5px; /* Padding for table cells */
+}
+
+.edit-machine-container select {
+    width: 107%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Georgia', serif;
+}
+
+.edit-machine-container input:focus,
+.edit-machine-container select:focus {
+    border-color: #3ecf40;
+    outline: none;
+    box-shadow: 0 0 5px rgba(18, 243, 22, 0.5);
+}
+
+.edit-machine-container input[type="text"],
+.edit-machine-container input[type="number"],
+.edit-machine-container input[type="date"] {
+    width: 100%; /* Full width input fields */
+    padding: 6px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 4px; /* Rounded corners */
+    font-family: 'Georgia', serif;
+}
+
+.edit-machine-container button {
+    background-color: #33632d; /* Bootstrap primary color */
+    color: white; /* White text */
+    padding: 10px 15px; /* Padding for button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    width: 90%; /* Full width button */
+    font-family: 'Georgia', serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.edit-machine-container button:hover {
+    background-color: #164313; /* Darker shade on hover */
+}
+
+.edit-machine-container p {
+    text-align: center; /* Center the message */
+    color: #000000; /* Red color for error messages */
+    font-size: 1em;
+}

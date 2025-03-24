@@ -1,0 +1,46 @@
+/* HomePage.css */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    background-image: url('../assets/home1.jpg');
+    background-size: cover; /* Cover the entire container */
+    background-position: center -130px; /* Center the image */
+    color: rgb(9, 50, 16); /* Text color */
+    margin-bottom: -50px;
+    margin-top: -40px;
+    text-shadow: none; /* Text shadow for better readability */
+    font-family: 'Georgia', serif;
+}
+
+h1 {
+    font-size: 3rem; /* Adjust font size */
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    margin-top: -200px;
+}
+
+p {
+    font-size: 1.5rem; /* Adjust font size */
+    margin-bottom: 30px;
+    font-family: 'Georgia', serif;
+}
+
+.login-button {
+    padding: 15px 30px; /* Increase button size */
+    font-size: 1.2rem; /* Adjust font size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: rgba(3, 43, 6, 0.8); /* Semi-transparent blue */
+    color: white; /* Text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    font-family: 'Georgia', serif;
+}
+
+.login-button:hover {
+    background-color: rgb(18, 59, 24); /* Solid blue on hover */
+}

@@ -1,0 +1,45 @@
+.admin-dashboard-container {
+    text-align: center;
+    margin-top: 1px;
+    font-family: 'Georgia', serif;
+    background-image: url('../assets/admindashboard.jpg');
+    background-size: cover;
+    min-height: calc(100vh - 129px); /* Ensure the container takes up most of the viewport height */
+    padding: 20px; /* Optional: Add padding for better content spacing */
+    border-radius: 10px;
+}
+
+.admin-dashboard-title {
+    font-size: 2.5em;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #fffdfd; /* Dark text color for the title */
+}
+
+.admin-dashboard-buttons {
+    display: flex; /* Use flexbox to stack buttons vertically */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    gap: 20px; /* Space between buttons */
+}
+
+.admin-dashboard-link {
+    text-decoration: none; /* Remove underline from links */
+}
+
+.admin-dashboard-button {
+    padding: 10px 20px;
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #447946; /* Green background */
+    color: white; /* White text */
+    font-size: 1em; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+    font-family: 'Georgia', serif;
+}
+
+.admin-dashboard-button:hover {
+    background-color: #598e5c; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly grow button on hover */
+}

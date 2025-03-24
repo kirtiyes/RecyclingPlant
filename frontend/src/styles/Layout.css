@@ -1,0 +1,38 @@
+/* Layout.css */
+
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 20px; /* Add some padding */
+    font-family: 'Georgia', serif;
+}
+
+.button-container {
+    display: flex; /* Flexbox for the button container */
+    justify-content: space-between; /* Space between left and right button groups */
+    align-items: center; /* Align buttons vertically */
+    padding: 10px; /* Add some padding */
+    font-family: 'Georgia', serif;
+}
+
+.left-buttons,
+.right-buttons {
+    display: flex; /* Flexbox for left and right button groups */
+}
+
+.button {
+    background-color: green; /* Green background */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for the button */
+    margin: 0 10px; /* Margin for spacing */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+    font-family: 'Georgia', serif;
+}
+
+.button:hover {
+    background-color: darkgreen; /* Darker green on hover */
+}

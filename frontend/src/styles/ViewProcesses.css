@@ -1,0 +1,115 @@
+.admin-processes-wrapper {
+    text-align: center; /* Center text alignment */
+    margin-top: 5px; /* Space above */
+    font-family: 'Georgia', serif; /* Font style */
+    background-image: url('../assets/adminprocesses.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire area */
+    height: auto;
+    background-position: center -1000px;
+    padding: 20px; /* Padding around the content */
+}
+
+.admin-processes-title {
+    font-size: 2em; /* Title size */
+    margin-bottom: 40px; /* Space below the title */
+    margin-top: 10px; /* Space above the title */
+    color: #1c201b; /* Dark text color */
+}
+
+.admin-processes-container {
+    max-width: 1900px;
+    width: 100%;
+}
+
+.admin-processes-add-button {
+    padding: 10px 20px; /* Padding for button */
+    margin-bottom: 20px; /* Space below button */
+    background-color: #268d29; /* Green background */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 1em; /* Font size */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+    font-family: 'Georgia', serif; /* Font style */
+}
+
+.admin-processes-add-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly scale on hover */
+}
+
+.admin-processes-table {
+    margin: 0 auto; /* Center the table */
+    border-collapse: collapse; /* Collapse borders */
+    width: 1200px; /* Fixed table width */
+    border: 1px solid #ddd; /* Light border for the table */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    background-color: rgba(255, 255, 255, 0.797); /* Light background */
+    border-radius: 6px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow */
+    margin-bottom: 20px; /* Space below the table */
+}
+
+.admin-processes-table th, .admin-processes-table td {
+    padding: 10px; /* Padding for cells */
+    text-align: left; /* Left alignment */
+    border: 1px solid #ddd; /* Border for cells */
+}
+
+.admin-processes-table th {
+    background-color: #f2f2f2; /* Light background for header */
+    font-weight: bold; /* Bold header text */
+    color: #333; /* Dark text color for header */
+}
+
+.admin-processes-table tr:hover {
+    background-color: #f5f5f5; /* Hover effect for rows */
+}
+
+.admin-processes-action-button {
+    padding: 5px 10px; /* Padding for action buttons */
+    margin-left: 5px; /* Space between buttons */
+    border-radius: 3px; /* Rounded corners */
+    font-size: 0.9em; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+}
+
+.admin-processes-remove-button {
+    padding: 5px 10px; /* Padding for button */
+    background-color: #2d3b26; /* Dark green background */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 1em; /* Font size */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+    font-family: 'Georgia', serif; /* Font style */
+}
+
+.admin-processes-remove-button:hover {
+    background-color: #2e462d; /* Darker green on hover */
+    transform: scale(1.05); /* Scale effect */
+}
+
+.admin-processes-edit-button {
+    padding: 5px 10px; /* Padding for button */
+    margin-bottom: 5px; /* Space below button */
+    background-color: #24a02c; /* Green background */
+    margin-left: 30px; /* Left margin for spacing */
+    margin-right: 10px; /* Left margin for spacing */
+    margin-top: 5px;
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 1em; /* Font size */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+    font-family: 'Georgia', serif; /* Font style */
+}
+
+.admin-processes-edit-button:hover {
+    background-color: #4b9c58; /* Darker blue on hover */
+    transform: scale(1.05); /* Scale effect */
+}

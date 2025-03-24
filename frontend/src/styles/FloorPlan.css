@@ -1,0 +1,97 @@
+/* FloorPlan.css */
+@import url('https://fonts.googleapis.com/css2?family=Georgia&display=swap');
+
+body {
+    font-family: 'Georgia', serif; /* Apply Georgia font to the entire body */
+}
+
+.floorplan-container {
+    display: flex;
+    flex-direction: row; /* Align SVG and info section side by side */
+    align-items: flex-start; /* Align items at the top */
+    justify-content: center; /* Center content horizontally */
+    padding: 20px; /* Add some padding */
+    background-image: url('../assets/floorplan.jpg'); /* Add the background image */
+    border-radius: 20px;
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    border-radius: 66; /* Rounded corners for the container */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    overflow: hidden; /* Prevent overflow of child elements */
+    margin-top: 5px;
+    margin-bottom: -60px;
+}
+
+.floorplan {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+    flex-shrink: 0; /* Prevent shrinking */
+    font-family: 'Georgia', serif;
+}
+
+.floorplan-svg {
+    border: 1px solid #ccc;
+    background-color: rgba(21, 113, 3, 0.731); /* Light background with transparency */
+    border-radius: 20px; /* Rounded corners for the SVG container */
+    margin-right: 20px; /* Spacing between floor plan and info */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.floorplan-svg:hover {
+    transform: scale(1.02); /* Slightly scale up on hover */
+}
+
+.room {
+    fill: #2d4e32; /* Room color */
+    stroke: #273224; /* Border color */
+    stroke-width: 3;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: fill 0.3s ease; /* Smooth color transition */
+}
+
+.room:hover {
+    fill: #1c5c2a; /* Change color on hover */
+}
+
+.room-label {
+    pointer-events: none; /* Prevent text from blocking room clicks */
+    fill: #ffffff; /* Change this to your desired text color */
+    font-size: 14px; /* Adjust font size if needed */
+    font-family: 'Arial', sans-serif; /* Font style */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Shadow for better readability */
+    font-family: 'Georgia', serif;
+}
+
+.room-info {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgba(231, 249, 236, 0.336); /* White background with transparency */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 300px; /* Slightly wider fixed width for room info */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+    font-family: 'Georgia', serif;
+    margin-bottom: 5px;
+}
+
+.room-info:hover {
+    transform: translateY(-2px); /* Slight lift on hover */
+    font-family: 'Georgia', serif;
+}
+
+.room-info h2 {
+    margin: 0 0 10px; /* Space below the title */
+    font-size: 1.5rem; /* Larger font size for the title */
+    color: #333; /* Darker color for the title */
+    font-family: 'Georgia', serif;
+}
+
+.room-info p {
+    margin: 5px 0; /* Space between paragraphs */
+    color: #172c17; /* Darker text for better readability */
+    font-size: 1rem; /* Adjusted font size for paragraphs */
+    font-family: 'Georgia', serif;
+    margin-bottom: 5px;
+    line-height: 30px;
+}

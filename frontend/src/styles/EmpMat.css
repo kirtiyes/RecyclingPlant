@@ -1,0 +1,131 @@
+.emp-mat-wrapper {
+    text-align: center; /* Center text alignment */
+    margin-top: 5px; /* Space above */
+    font-family: 'Georgia', serif; /* Font style */
+    background-image: url('../assets/adminprocesses.jpg'); /* Background image */
+    background-size: 100%; /* Cover the entire area */
+    margin-bottom: -10px; /* Negative margin at the bottom */
+    height: 87vh;
+    position: relative;
+    background-position: center -1400px;
+}
+
+.emp-mat-container {
+    max-width: 10000px;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Georgia', serif;
+    background-size: cover;
+    margin-bottom: -10px;
+}
+
+.emp-mat-title {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #0c3210; /* Dark text color */
+}
+
+.emp-mat-add-button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #006c04; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s, transform 0.2s;
+    font-family: 'Georgia', serif;
+}
+
+.emp-mat-add-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05);
+}
+
+.emp-mat-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 60%;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow for math */
+    background-color: rgba(255, 255, 255, 0.71); /* Light background */
+    border-radius: 5px; /* Rounded corners */
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.emp-mat-table th, .emp-mat-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.emp-mat-table th {
+    background-color: #efefe8;
+    font-weight: bold;
+    color: #333;
+}
+
+.emp-mat-table tr:hover {
+    background-color: #eeeeec;
+}
+
+.emp-mat-action-button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 3px;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.emp-mat-buttons {
+    display: flex; /* Use Flexbox for alignment */
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center align items */
+    margin-top: 10px; /* Optional: Add some space above the buttons */
+}
+
+.emp-mat-remove-button {
+    padding: 5px 10px; /* Padding for button */
+    margin-bottom: 2px; /* Space below button */
+    background-color: #2d3b26; /* Green background */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 1em; /* Font size */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+    font-family: 'Georgia', serif; /* Font style */
+    align-items: center;
+}
+
+.emp-mat-remove-button:hover {
+    background-color: #2e462d; /* Darker red on hover */
+    transform: scale(1.05);
+}
+
+.emp-mat-edit-button {
+    padding: 5px 10px; /* Padding for button */
+    margin-bottom: 1px; /* Space below button */
+    background-color: #24a02c; /* Green background */
+    margin-top: 2px;
+    position: relative;
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 1em; /* Font size */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+    font-family: 'Georgia', serif; /* Font style */
+    align-items: center;
+    margin-right: 8px;
+}
+
+.emp-mat-edit-button:hover {
+    background-color: #4b9c58; /* Darker blue on hover */
+    transform: scale(1.05);
+}

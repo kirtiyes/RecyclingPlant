@@ -1,0 +1,142 @@
+/* Wrapper for background image and centered content */
+.view-machines-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 88vh;
+    background-image: url('../assets/AdminMachines.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+/* Container for the main content */
+.view-machines-container {
+    position: absolute; /* or 'absolute' if needed */
+    top: 80px; /* Adjust as needed */
+    max-width: 1500px;
+    width: 100%;
+    padding: 20px;
+    height: 1000px;
+    background-color: rgba(248, 2, 2, 0); /* Slightly opaque white */
+    border-radius: 12px;
+    text-align: center;
+    margin-top: -100px; /* Adjusted position */
+    font-family: 'Georgia', serif;
+}
+
+/* Title styling */
+.view-machines-title {
+    font-size: 2.5em;
+    margin-bottom: 25px;
+    margin-top: 0; /* Removed negative margin */
+    color: #f50909; /* Refined darker red */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+}
+
+/* Add Machine button styling */
+.view-machines-add-button {
+    padding: 12px 24px;
+    margin-bottom: 50px;
+    background-color: #248b29; /* Deeper green */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: 'Georgia', serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.view-machines-add-button:hover {
+    background-color: #2f6b32; /* Darker green on hover */
+    transform: translateY(-2px); /* Lifting effect on hover */
+}
+
+/* Table styling */
+.view-machines-table {
+    margin: 0 auto;
+    margin-top: 50px;
+    border-collapse: collapse;
+    width: 90%;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
+    background-color: rgba(255, 255, 255, 0.9); /* More opaque background */
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.view-machines-table th, .view-machines-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.view-machines-table th {
+    background-color: #f7f7f7;
+    font-weight: bold;
+    color: #333;
+}
+
+.view-machines-table tr:hover {
+    background-color: #f0f0f0; /* Subtle hover effect */
+}
+
+/* Action button styling */
+.view-machines-action-button {
+    padding: 8px 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Remove button styling */
+.view-machines-remove-button {
+    padding: 5px 10px; /* Padding for button */
+    margin-bottom: 5px; /* Space below button */
+    background-color: #2d3b26; /* Green background */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 1em; /* Font size */
+    margin-top: 5px;
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+    font-family: 'Georgia', serif; /* Font style */
+}
+
+.view-machines-remove-button:hover {
+    background-color: #173c17; /* Slightly darker red on hover */
+    transform: translateY(-2px);
+}
+
+/* Edit button styling */
+.view-machines-edit-button {
+    padding: 5px 10px; /* Padding for button */
+    margin-bottom: 5px; /* Space below button */
+    background-color: #24a02c; /* Green background */
+    margin-left: 30px; /* Left margin for spacing */
+    margin-right: 10px; /* Left margin for spacing */
+    margin-top: 5px;
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 1em; /* Font size */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+    font-family: 'Georgia', serif; /* Font style */
+}
+
+.view-machines-edit-button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: translateY(-2px);
+}

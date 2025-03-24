@@ -1,0 +1,87 @@
+.edit-matinv-wrapper {
+    position: relative; /* Allow positioning of child elements */
+    height: 88svh; /* Full height of the viewport */
+    width: 100%; /* Full width */
+    background-image: url('../assets/admineditmatinv.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repetition */
+}
+
+.edit-matinv-container {
+    max-width: 500px; /* Set a max width for the form container */
+    margin: 50px auto; /* Center the container */
+    height: 380px;
+    padding: 20px; /* Add padding */
+    margin-top: -25px;
+    position: relative;
+    top: 42px;
+    border: 1px solid rgba(255, 255, 255, 0.308); /* Translucent border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    background-color: rgba(255, 255, 255, 0.662); /* White background with transparency */
+    font-family: 'Georgia', serif;
+}
+
+.edit-matinv-container h2 {
+    text-align: center; /* Center the heading */
+    color: #153417; /* Darker color for the heading */
+    margin-top: 3px;
+}
+
+.edit-matinv-container table {
+    width: 100%; /* Full width table */
+    border-collapse: collapse; /* Collapse borders */
+}
+
+.edit-matinv-container table td {
+    padding: 5px; /* Padding for table cells */
+}
+
+.edit-matinv-container input[type="text"],
+.edit-matinv-container input[type="number"],
+.edit-matinv-container input[type="date"] {
+    width: 90%; /* Full width input fields */
+    padding: 6px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 4px; /* Rounded corners */
+    font-family: 'Georgia', serif;
+}
+
+.edit-matinv-container select {
+    width: 114%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Georgia', serif;
+}
+
+.edit-matinv-container input:focus,
+.edit-matinv-container select:focus {
+    border-color: #44b046;
+    outline: none;
+    box-shadow: 0 0 5px rgba(68, 176, 70, 0.5);
+}
+
+.edit-matinv-container button {
+    background-color: #33632d; /* Bootstrap primary color */
+    color: white; /* White text */
+    padding: 10px 15px; /* Padding for button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    width: 90%; /* Full width button */
+    margin-top: 20px;
+    font-family: 'Georgia', serif;
+}
+
+.edit-matinv-container button:hover {
+    background-color: #164313; /* Darker shade on hover */
+}
+
+.edit-matinv-container p {
+    text-align: center; /* Center the message */
+    color: #000000; /* Red color for error messages */
+    font-size: 1em;
+    margin-top: 10px;
+}

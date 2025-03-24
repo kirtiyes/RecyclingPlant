@@ -1,0 +1,28 @@
+/* Overall container for charts */
+.chart-container {
+    background-image: url('../assets/vizatt.jpg');
+    height: 585px; /* Fixed height */
+    background-size: cover; /* Cover to fit the container */
+    background-position: center; /* Center the image */
+    display: grid; /* Maintain grid layout */
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 10px; /* Space between grid items */
+    margin-left: -10px; /* Center the container */
+    margin-right: -50px;
+}
+
+.admin-chart-container {
+    background-image: url('../assets/vizatt.jpg');
+    height: 585px; /* Fixed height */
+    background-size: cover; /* Cover to fit the container */
+    background-position: center; /* Center the image */
+    display: grid; /* Maintain grid layout */
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 10px; /* Space between grid items */
+    margin-left: -10px; /* Center the container */
+    margin-right: -50px;
+    background-color: rgb(242, 106, 147);
+}
+
+/* Optional: If you want the charts to be responsive */
+

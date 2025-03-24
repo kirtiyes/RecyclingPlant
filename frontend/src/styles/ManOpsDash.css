@@ -1,0 +1,51 @@
+.manops-dashboard-container {
+    text-align: center;
+    margin-top: 1px;
+    font-family: 'Georgia', serif;
+    background-image: url('../assets/admindashboard.jpg');
+    background-size: cover;
+    background-position: center -1350px;
+    padding: 5px; /* Optional: Add padding for better content spacing */
+    border-radius: 10px;
+    max-height: 100vh;
+    height: 87vh;
+    position: relative;
+    min-height: 82vh;
+    top: -46px;
+    margin-bottom: -366px;
+}
+
+.manops-dashboard-title {
+    font-size: 2.5em;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #ffffff; /* Dark text color for the title */
+}
+
+.manops-dashboard-buttons {
+    display: flex; /* Use flexbox to stack buttons vertically */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    gap: 20px; /* Space between buttons */
+}
+
+.manops-dashboard-link {
+    text-decoration: none; /* Remove underline from links */
+}
+
+.manops-dashboard-button {
+    padding: 10px 20px;
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #05880a; /* Green background */
+    color: white; /* White text */
+    font-size: 1em; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+    font-family: 'Georgia', serif;
+}
+
+.manops-dashboard-button:hover {
+    background-color: #1a5f1d; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly grow button on hover */
+}

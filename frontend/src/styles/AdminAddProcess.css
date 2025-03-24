@@ -1,0 +1,95 @@
+.add-process-wrapper1 {
+    background-color: #f4f2f282;
+}
+
+.add-process-wrapper {
+    position: relative; /* Position relative to allow absolute positioning of the container */
+    height: 88vh; /* Full height of the viewport */
+    width: 100%; /* Full width */
+    background-image: url('../assets/adminaddprocess.jpg'); /* Full background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat; /* Prevent repetition */
+    border-radius: 5px;
+    width: 1500px;
+    width: 90vw;
+    transform: translateX(22%);
+}
+
+.add-process-container {
+    max-width: 500px; /* Set a maximum width for the container */
+    margin: 50px auto; /* Center the container with margin */
+    height: 400px;
+    padding: 20px; /* Add padding */
+    margin-left: -66px;
+    width: 100%;
+    position: absolute; /* or 'absolute' if needed */
+    top: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* White border with transparency */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    background-color: rgba(255, 255, 255, 0.694); /* White background with transparency */
+}
+
+.add-process-container h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Darker color for the heading */
+    margin-top: 14px;
+}
+
+.add-process-container table {
+    width: 100%; /* Full width table */
+    border-collapse: collapse; /* Collapse borders */
+}
+
+.add-process-container table td {
+    padding: 15px; /* Padding for table cells */
+}
+
+.add-process-container select {
+    width: 110%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Georgia', serif;
+}
+
+.add-process-container input:focus,
+.add-process-container select:focus {
+    border-color: #44b046;
+    outline: none;
+    box-shadow: 0 0 5px rgba(68, 176, 70, 0.5);
+}
+
+.add-process-container input[type="text"],
+.add-process-container input[type="number"],
+.add-process-container input[type="date"],
+.add-process-container input[type="password"] {
+    width: 100%; /* Full width input fields */
+    padding: 6px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 4px; /* Rounded corners */
+    font-family: 'Georgia', serif;
+}
+
+.add-process-container button {
+    background-color: #44b046; /* Bootstrap primary color */
+    color: white; /* White text */
+    padding: 10px 15px; /* Padding for button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    width: 100%; /* Full width button */
+    font-family: 'Georgia', serif;
+    margin-top: 20px;
+}
+
+.add-process-container button:hover {
+    background-color: #36874d; /* Darker shade on hover */
+}
+
+.add-process-container p {
+    text-align: center; /* Center the message */
+    color: #000000; /* Red color for error messages */
+    font-size: 1em;
+}
